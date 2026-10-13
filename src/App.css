@@ -1,0 +1,50 @@
+/* Main application styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1416879595882-3373a0480b5b");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+}
+
+.landing-page h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.landing-page p {
+  font-size: 1.2rem;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+.get-started-button {
+  padding: 12px 28px;
+  margin-top: 20px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.get-started-button:hover {
+  background-color: #1b5e20;
+}
